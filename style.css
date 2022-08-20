@@ -160,6 +160,46 @@ hr {
   list-style-type: none;
 }
 
-.middle-section h3 {
-  color: #9490ff;
+.middle-section h2 {
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    display: flex;
+    justify-content: center;
+}
+
+.middle-section p {
+    color: #DCDCE8;
+}
+
+.lang {
+    color: #FFFFFF;
+}
+
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+
+p {
+    color: #DCDCE8;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+} 
+
+.middle-section h1 {
+    text-align: start;
 }
