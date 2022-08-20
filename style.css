@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding:0;
+}
+
+body {
+    background: url(images/background.png) no-repeat center top rgb(41, 5, 181);
+    width: 84%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+
+.container > * {
+    padding: 20px;
+}
+
+.header-page {
+    
+}
+
+.main-page {
+    display: flex;
+    justify-content: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.main-page div {
+    max-width: 500px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-page h3 {
+    Font-style: bold;
+    Font-size: 38px;
+    color: #7D73FC
+}
+
+.main-page h5 {
+    line-height:20px;
+    font-size: 15px;
+    font-style: regular;
+    color: #C8C8D4;
+    display: flex;
+    margin-bottom: 5%;
+}
+
+h3 {
+    text-align: center;
+    Line-height: 72px
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+h4 {
+    text-align: center;
+    line-height: 44px;
+    font-family: 'Roboto', 'Helvetica Neue',;
+}
+
+h5 {
+    text-align: center;
+    Font-style: Regular
+}
+
+.main-page h4 {
+    font-style: medium;
+    font-size: 22px;
+    Line-height: 44px;
+}
+
+.footer-page {
+    
+}
+
+
+/* In the page header I want my Nav to execute this method. */
+.header-page nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+/* In the page header I want my UL to execute this method. */
+.header-page ul {
+    display: flex;
+    order: 1;
+    width: 100%;
+    margin-top: 15px;
+    color: #fff;
+}
+
+.toggle {
+    
+}
+
+.vector_line {
+    align-items: center;
+    width: 1px;
+    display: flex;
+    margin-top: 35px;
+    color: #646369;
+}
+
+/* Section 2*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.section2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40%;
+}
+
+
+.heading-left {
+    font-family: 'Roboto', sans-serif;
+    font-style: medium;
+    font-size: 12px;
+    line-height: 24px;
+    line-height: 171%;
+    vertical-align: center;
+    letter-spacing: 3%;
+
+}
+
+.items {
+    color: #F5F5FF;
+    font-family: 'Roboto';
+    font-style: regular;
+    font-size: 15px;
+    line-height: 24px;
+    line-height: 137%;
+    list-style-type: none;
+}
+
+
+.heading-right {
+    font-family: 'Roboto', sans-serif;
+    font-style: medium;
+    font-size: 12px;
+    margin-bottom: 15px;
+    line-height: 24px;
+    line-height: 171%;
+    letter-spacing: 3%;
+    
+}
+
+.list-heading{
+    color: #9490FF;
+}
+
+
+/* This is my Footer */
+
+hr {
+    color: #646369;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin-top: 10%;
+}
+
+/* Mobile first rule */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*.section2 {
+    color: #fff;
+    background-color: plum;
+    padding: 20px 0;
+    display: flex;
+    justify-content:center;
+}
+*/
+
+/*
+.time {
+    margin-left: 40px;
+    font-size: 16px;
+    position: absolute;
+    width: 54px;
+    height: 16px;
+    left: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: -0.28px;
+
+}
+*/
+
+/*.navbar {
+    border: 1px solid #ccc;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}  
+
+.navLinks {
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: space-between ;
+}
+
+.logo {
+    margin-left: 20px;
+}*/
+
+
+/*.section1 {
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: blue;
+}
+
+.right_icon {
+    border: 1px solid #ccc;
+    width: 10px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+
+}
+
+.left_icon {
+    display: flex;
+    justify-content: flex-center;
+    flex-flow: row wrap;
+}
+
+.left_icon > div {
+    background-color: #FF0000;
+    padding-left: 10px;
+}
+
+.right_icon > div {
+    background-color: #FF0000;
+    padding-left: 10px;
+}
+
+.time {
+    margin-left: 20px;
+    
+}
