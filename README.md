@@ -13,7 +13,7 @@
 
 ## Author
 
-👤 **Author1**
+👤 **Ope Solomon**
 
 - GitHub: [@githubhandle](https://github.com/Solorics)
 - Twitter: [@twitterhandle](https://twitter.com/Solorics2)
