@@ -200,6 +200,7 @@ hr {
 .programs {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  list-style-type: none;
 }
 
 .button {
@@ -211,4 +212,5 @@ hr {
   background: #7d73fc;
   margin: 10px 0 10px 0;
   color: #fff;
+  border: 1px solid #7d73fc;
 }
