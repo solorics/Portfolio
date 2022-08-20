@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../Microverse"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "project2"
+	}
+}
