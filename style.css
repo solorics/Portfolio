@@ -214,3 +214,28 @@ hr {
   color: #fff;
   border: 1px solid #7d73fc;
 }
+
+.template-footer h1 {
+  display: flex;
+  justify-content:center;
+  color: #9390FF;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  margin-top: 40px;
+
+}
+
+.template-footer p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  flex: none;
+  text-align: center;
+  color: #F5F5FF;
+  margin-top: 15px;
+}
