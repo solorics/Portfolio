@@ -179,41 +179,51 @@
             need built or a project that needs coding. <br>
             I’d love to help with it </p>
 
-            <div>
-                <form>
+            <div class="form-section">
+                <form class="form-submit" action="https://formspree.io/f/{form_id}" method="post">
                     <ul>
                         <li>
                             <label for="name"></label>
-                            <input type="text" id="name" name="user_name" placeholder="Text Input" required>
+                            <input type="text" id="name" name="user_name" placeholder="text" maxlength="30" required>
                         </li>
                         <li>
-                            <label for="mail"></label>
-                            <input type="email" id="mail" name="email" placeholder="emial" required value>
+                            <label for="email"></label>
+                            <input type="email" id="email" name="email" placeholder="text" required value>
                         </li>
                         <li>
                             <label for="msg"></label>
-                            <textarea name="Enter text here" id="msg" placeholder="Enter text here" required cols="30" rows="10"></textarea>
+                            <textarea name="Enter text here" id="msg" placeholder="text" required cols="30" rows="10" maxlength="500"></textarea>
                         </li>
                     </ul>
 
-                    <div>
+                    <div >
                         <button class="form-button" type="submit" onclick>
                             See Project
                         </button>
                     </div>
+                    <div class="footer-hr">
+                        <hr>
+                    </div>
+                    <div class="link-page">
+                        <ul class="icon">
+                            <li><img src="images/github1.png" alt="github" class="icons"></li>
+                            <li><img src="images/linkden.png" alt="linkden1" class="icons "><img src="images/linkden2.png"
+                                    alt="linkden1" class="icons "></li>
+                            <li><img src="images/1.png" alt="1" class="icons"></li>
+                            <li><img src="images/twitter1.png" alt="twitter" class="icons"></li>
+                            <li><img src="images/2.png" alt="2" class="icons"></li>
+                        </ul>    
+                    </div>
                 </form>
-            </div>
-
-            
+            </div>         
     </div>
+    <div class="contact-email">
+        <ul>
+            <li><p>emialhere@email.com</p></li>
+        </ul>
+    </div>
+    
 </footer>
-
-
-
-
-
-
-
     </div>
 </body>
 
