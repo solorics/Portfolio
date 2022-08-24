@@ -1,11 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio
+# Portfolio: Add a contact form and finish the mobile version
 
-> For the first milestone in the process of creating my portfolio website:
+> For the second milestone in the process of creating my portfolio website:
 
 1. I set up a new repository and prepare it for development using best practices (e.g. linters).
-2. I build the first 2 sections of the mobile website using the template I chose in the previous step.
+2. Add a contact form to my portfolio and the portfolio of my coding partner.
+3. I guide my users' experience in a way that helps them fill in the form without frustration.
 
 ## Built With
 
