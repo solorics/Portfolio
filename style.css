@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap');
 
 * {
   margin: 0;
@@ -239,18 +240,19 @@ hr {
   font-family: 'Inter', serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 24px;
   flex: none;
   text-align: center;
   color: #f5f5ff;
-  margin-top: 15px;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 .form-section {
   display: flex;
   justify-content: center;
-  padding: 24px;
+  padding: 24px 0; 
 }
 
 .form-section ul {
@@ -270,21 +272,53 @@ hr {
 }
 
 #name {
-  background: #fff;
+  /* background: #fff;
   width: 90%;
   padding: 14px;
-  border: #191765;
+  border: #191765; */
+  background: #fff;
+  height: 48px;
+  margin: 0 24px;
+  border: 1px solid #cfd8dc;
+  padding: 0 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  color: #172b4d;
+  width: 70%;
+  margin-bottom: 18px;
 }
 
 #email {
-  background: #f7f3ff;
+  /* background: #f7f3ff;
   border: 1px solid #9490ff;
   width: 90%;
-  padding: 14px;
+  padding: 14px; */
+  background: #fff;
+  height: 48px;
+  margin: 0 24px;
+  border: 1px solid #cfd8dc;
+  padding: 0 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  color: #172b4d;
+  width: 70%;
+  margin-bottom: 18px;
 }
 
 #msg {
-  background: #fff;
+  /* background: #fff; */
+  height: 170px;
+  left: 24px;
+  margin: 0 24px;
+  border: 1px solid #cfd8dc;
+  padding: 0 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  color: #172b4d;
+  width: 70%;
 }
 
 .form-button {
@@ -299,7 +333,7 @@ hr {
   border: 1px solid #7d73fc;
   margin-bottom: 80px;
   margin-top: 26px;
-  margin-left: 74px;
+  margin-left: 35%;
 }
 
 .form-button:hover {
