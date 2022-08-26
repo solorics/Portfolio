@@ -84,10 +84,8 @@ h4 {
 /* In the page header I want my UL to execute this method. */
 .header-page ul {
   display: flex;
-  order: 1;
-  width: 100%;
-  margin-top: 15px;
   color: #fff;
+  display: none;
 }
 
 .header-page a {
@@ -163,6 +161,7 @@ h2 {
 
 .list-heading {
   color: #9490ff;
+  display: flex;
 }
 
 hr {
@@ -223,7 +222,7 @@ hr {
   border: 1px solid #7d73fc;
 }
 
-.template-footer h1 {
+.mobile-us {
   display: flex;
   justify-content: center;
   color: #9390ff;
@@ -233,6 +232,10 @@ hr {
   font-size: 32px;
   line-height: 44px;
   margin-top: 40px;
+}
+
+.desktop-us {
+  display: none;
 }
 
 .template-footer p {
@@ -325,4 +328,258 @@ hr {
   width: 221px;
   height: 29px;
   left: 76px;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    background: url('./Images/two_circle.png');
+    background-color: #191765;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  nav {
+    
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  a{
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .nav-links {
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .nav-links li {
+    display: flex;
+    font-size: normal;
+    font-family: 'Roboto';
+    align-items: center;
+    text-align: center;
+  }
+
+  .header-page nav {
+    display: flex;
+    justify-content: space-between  ;
+    align-items: center;
+    color: #fff;
+  }
+
+  .header-page ul {
+    display: flex;
+    color: #fff;
+  }
+
+  .main-page h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 105px;
+    text-align: center;
+  }
+
+  .main-page h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+  }
+
+  .main-page p {
+    display: flex;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color:  #B3BAC5;
+    text-align: center;
+    margin-top: 80px;
+    line-height: 32px
+  }
+
+  .section2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15%;
+    justify-content:center;
+  }
+
+
+  .list-heading {
+    color: #9490ff;
+    display: flex;
+}
+
+.work-right .work-left {
+  display: flex;
+  font-family: 'Roboto';
+  font-style: normal;
+  text-align: center;
+}
+
+.work-left {
+  align-items: left;
+}
+
+.middle-section h1 {
+  text-align: start;
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto';
+  font-size: 64px;
+  font-style: normal;
+}
+
+.middle-section hr {
+  height: 0px;
+  left: 0px;
+  right: 0px;
+  border: 1px solid #646369;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+.desktop-us {
+  display: flex;
+  justify-content: center;
+  color: #9390ff;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  margin-top: 40px;
+}
+
+.mobile-us {
+  display: none;
+}
+
+.template-footer p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  flex: none;
+  text-align: center;
+  color: #EBEBFF;
+  margin-top: 15px;
+}
+
+.work-section {
+  display: flex;
+  margin: 80px;
+}
+
+.work-section1 {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 80px;
+}
+
+.divide {
+  padding-left: 30px;
+}
+
+.divide1 {
+  padding-right: 30px;
+}
+
+.middle-section {
+}
+
+.template-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.template-footer p {
+  font-family: 'Roboto';
+  padding: 0 20% 0 20%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+  text-align: center;
+  color: #EBEBFF;
+  margin-top: 15px;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+}
+
+#name {
+  background: #fff;
+  height: 48px;
+  margin: 0 24px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  padding: 0 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  color: #172b4d;
+  width: 70%;
+  margin-bottom: 18px;
+}
+
+#email {
+  background: #fff;
+  height: 48px;
+  margin: 0 24px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  padding: 0 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  color: #172b4d;
+  width: 70%;
+  margin-bottom: 18px;
+}
+
+#msg {
+  height: 170px;
+  left: 24px;
+  margin: 0 24px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  padding: 0 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  color: #172b4d;
+  width: 70%
+}
+
+.form-section {
+  margin-left: 20%;
+}
+
+.form-button {
+  margin: 5% 38% 5% 38%;
+}
+
+.link-page {
+  
+}
+
 }
