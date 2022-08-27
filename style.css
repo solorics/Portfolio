@@ -311,17 +311,17 @@ hr {
 .form-button {
   flex-direction: row;
   align-items: center;
-  background: #7D73FC;
+  background: #7d73fc;
   padding: 10px;
   top: 12px;
-  border: 1px solid #7D73FC;
+  border: 1px solid #7d73fc;
   box-sizing: border-box;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #EDECFF;
+  color: #edecff;
   margin-top: 5%;
   margin-left: 40%;
 }
