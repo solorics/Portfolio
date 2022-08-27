@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -237,18 +241,19 @@ hr {
   font-family: 'Inter', serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 24px;
   flex: none;
   text-align: center;
   color: #f5f5ff;
-  margin-top: 15px;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 .form-section {
   display: flex;
   justify-content: center;
-  padding: 24px;
+  padding: 24px 0;
 }
 
 .form-section ul {
@@ -268,10 +273,6 @@ hr {
 }
 
 #name {
-  /* background: #fff;
-  width: 90%;
-  padding: 14px;
-  border: #191765; */
   background: #fff;
   height: 48px;
   margin: 0 24px;
@@ -283,10 +284,6 @@ hr {
 }
 
 #email {
-  /* background: #F7F3FF;
-  border: 1px solid #9490FF;
-  width: 90%;
-  padding: 14px; */
   background: #fff;
   height: 48px;
   margin: 0 24px;
@@ -314,17 +311,17 @@ hr {
 .form-button {
   flex-direction: row;
   align-items: center;
-  background: #7d73fc;
+  background: #7D73FC;
   padding: 10px;
   top: 12px;
-  border: 1px solid #7d73fc;
+  border: 1px solid #7D73FC;
   box-sizing: border-box;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #edecff;
+  color: #EDECFF;
   margin-top: 5%;
   margin-left: 40%;
 }
