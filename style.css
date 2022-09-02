@@ -17,6 +17,7 @@ body {
   align-items: center;
   justify-content: center;
   background-position: center;
+  overflow-x: hidden;
 }
 
 .container {
@@ -451,6 +452,19 @@ hr {
     margin-left: 300%;
   }
 
+  .recent {
+    height: 114px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 114px;
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    color: #9390ff;
+  }
+
   .work-left {
     display: flex;
     margin-left: -300%;
@@ -513,19 +527,6 @@ hr {
 
   .break-line {
     display: flex;
-  }
-
-  .middle-section h1 {
-    text-align: start;
-    display: flex;
-    align-items: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 64px;
-    font-style: normal;
-    width: 444px;
-    height: 114px;
-    white-space: nowrap;
-    margin: 70px;
   }
 
   .middle-section hr {
