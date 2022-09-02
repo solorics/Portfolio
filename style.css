@@ -84,8 +84,7 @@ h4 {
 }
 
 .header-page ul {
-  display: flex;
-  color: #fff;
+  display: none;
 }
 
 .header-page a {
@@ -356,6 +355,10 @@ hr {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+  }
+
+  .toggle {
+    display: none;
   }
 
   .logo {
