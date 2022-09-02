@@ -364,6 +364,8 @@ hr {
   .logo {
     display: flex;
     justify-content: flex-end;
+    transform: rotate(360deg);
+    transition: 5s;
   }
 
   ul {
@@ -526,6 +528,7 @@ hr {
 
   .button:hover {
     background-color: rgb(92, 4, 90);
+    transition: 1s;
   }
 
   .break-line {
@@ -576,6 +579,12 @@ hr {
     align-items: center;
     width: 684px;
     height: 448px;
+    transition: 2s;
+  }
+
+  .section-img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 
   .work-section1 {
@@ -635,6 +644,11 @@ hr {
     margin-bottom: 18px;
   }
 
+  #name:hover {
+    transform: translate(42px, 18px);
+    transition: 2s;
+  }
+
   #email {
     background: #fff;
     height: 48px;
@@ -650,6 +664,11 @@ hr {
     margin-bottom: 18px;
   }
 
+  #email:hover {
+    transform: translate(42px, 18px);
+    transition: 2s;
+  }
+
   #msg {
     height: 170px;
     left: 24px;
@@ -662,6 +681,11 @@ hr {
     font-size: 21px;
     color: #172b4d;
     width: 70%;
+  }
+
+  #msg:hover {
+    transform: translate(42px, 18px);
+    transition: 2s;
   }
 
   .form-section {
