@@ -131,6 +131,7 @@ h2 {
 }
 
 .heading-left {
+  float: left;
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
   line-height: 24px;
