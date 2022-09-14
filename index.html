@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <title>Quick startup</title>
 </head>
 
@@ -14,20 +16,52 @@
     <div class="container">
         <header class="header-page">
             <!--header contents goes here-->
-            <nav>
+            <nav class="navbar">
                 <!--This is my Logo-->
-                <a class="logo" href=''>Solorics</a>
+                <a class="logo" href='#'>Solorics</a>
                 <ul class="nav-links">
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contacts">Contaacts</a></li>
-                    <li><a href="about">About</a></li>
-                    <li><a href="#mailbox"><img src="./Images/Union.png" alt="mail_box"></a></li>
+                    <li class="nav-item"><a class="menuItem" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="menuItem" href="#contact">Contacts</a></li>
+                    <li class="nav-item"><a class="menuItem" href="#about">About</a></li>
+                    <li class="nav-item"><a class="menuItem" href="#mailbox"><img src="./Images/Union.png" alt="mail_box"></a></li>
                 </ul>
-                <!--Toggle button goes here-->
-                <img src="./Images/burger.png" alt="Toggle_Image_Button" class="toggle">
+                <!-- <div id="myNav" class="hamburger" onclick="openNav()">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div> -->
+                <nav>
+                    <img class="toggle" src="./Images/toggle.png" alt="toggle" onclick="openNav()">
+                </nav>
+                <div id="myNav" class="overlay">
+                    <a class="closebtn"> &times; </a>
+                    <div class="overlay-content">
+                        <div class="g">
+                            <a class="pop-nav" href="#portfolio">Portfolio </a> 
+                            <div class="link-icons1">></div>
+                        </div>
+                        <div class="g">
+                            <a class="pop-nav" href="#about">About </a> 
+                            <div class="link-icons2">></div>
+                        </div>
+                        <div class="g">
+                            <a class="pop-nav" href="#contact">Contact</a> 
+                            <div class="link-icons3">></div>
+                        </div>
+                        <!-- <div class="g">
+                            <a class="pop-nav" href="#about">About</a>
+                            <div class="link-icons">></div>
+                        </div>
+                        <div class="g">
+                            <a class="pop-nav" href="#contact">Contact</a>
+                            <div class="link-icons">></div>
+                        </div> -->
+                        
+                    </div>
+                </div>
             </nav>
         </header>
-        <section class="main-page">
+        <section id="about" class="main-page">
             <!--main contents goes here-->
             <div>
                 <h1>Opeyemi</h1>
@@ -76,8 +110,7 @@
                         <img src="./Images/Element-Let.png" alt="let" class="work-left">
                     </li>
                     <li><img src="./Images/github1.png" alt="github" class="icons"></li>
-                    <li><img src="./Images/linkden.png" alt="linkden1" class="icons "><img src="./Images/linkden2.png"
-                            alt="linkden1" class="icons "></li>
+                    <li><img src="./Images/Group.png" alt="linkden1" class="icons "></li>
                     <li><img src="./Images/1.png" alt="1" class="icons"></li>
                     <li><img src="./Images/twitter1.png" alt="twitter" class="icons"></li>
                     <li><img src="./Images/2.png" alt="2" class="icons"></li>
@@ -87,7 +120,7 @@
                 </ul>
             </div>
         </section>
-        <section class="middle-section">
+        <section id="portfolio" class="middle-section">
             <h1 class="recent">MY RECENT WORK</h1>
             <hr>
             <div class="work-section">
@@ -164,7 +197,7 @@
             </div>
         </section>
         <footer>
-            <div class="template-footer">
+            <div id="contact" class="template-footer">
                 <h1 class="mobile-us">CONTACT US</h1>
                 <h1 class="desktop-us">Let's Chat!</h1>
                 <p>If you have an application you are
@@ -189,8 +222,7 @@
                 <hr>
                 <ul class="icon">
                     <li><img src="./Images/github1.png" alt="github" class="icons"></li>
-                    <li><img src="./Images/linkden.png" alt="linkden1" class="icons "><img src="./Images/linkden2.png"
-                            alt="linkden1" class="icons "></li>
+                    <li><img src="./Images/Group.png" alt="linkden1" class="icons "></li>
                     <li><img src="./Images/1.png" alt="1" class="icons"></li>
                     <li><img src="./Images/twitter1.png" alt="twitter" class="icons"></li>
                     <li><img src="./Images/2.png" alt="2" class="icons"></li>
@@ -199,6 +231,8 @@
             </div>
         </footer>
     </div>
+
+    <script src="./index.js"></script>
 </body>
 
 </html>
