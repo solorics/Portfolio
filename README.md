@@ -18,7 +18,7 @@ https://github.com/solorics/Portfolio#:~:text=solorics.github.io/portfolio/
 
 - GitHub: [@githubhandle](https://github.com/Solorics)
 - Twitter: [@twitterhandle](https://twitter.com/Solorics2)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/solomon-opeyemi-0427a6155)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/solomon-opeyemi-0427a6155).
 
 ## 🤝 Contributing
 

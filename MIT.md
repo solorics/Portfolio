@@ -1,4 +1,4 @@
-## Copyright 2021, [Ope Solomo]
+## Copyright 2021, [Opeyemi Solomo]
 
 ###### Please delete this line and the next one
 ###### Portfolio can be a webpage/website, a web app, a software and so on
