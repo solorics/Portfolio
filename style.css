@@ -12,6 +12,7 @@ body {
   margin-left: 0;
   margin-right: 0;
   background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -485,6 +486,12 @@ hr {
   background-color: rgb(92, 4, 90);
 }
 
+#error_message {
+  color: red;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+}
+
 @media only screen and (min-width: 768px) {
   body {
     background: url('./Images/two_circle.png');
@@ -907,5 +914,11 @@ hr {
     display: flex;
     align-items: center;
     color: #fff;
+  }
+
+  #error_message {
+    color: red;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
   }
 }
