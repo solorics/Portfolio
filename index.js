@@ -65,3 +65,21 @@ validate.addEventListener('submit', (event) => {
     event.preventDefault();
   }
 });
+// Local storage
+const nameSection = document.querySelector('#name');
+const emailSection = document.querySelector('#email');
+const messageSection = document.querySelector('#msg');
+
+validate.addEventListener('input', () => {
+  const userData = {
+    name: nameSection.value,
+    email: emailSection.value,
+    message: messageSection.value,
+  };
+
+  localStorage.setItem('userData', JSON.stringify(userData));
+});
+const userDataFromLocalStorage = JSON.parse(localStorage.getItem('userData'));
+nameSection.value = userDataFromLocalStorage.name;
+emailSection.value = userDataFromLocalStorage.email;
+messageSection.value = userDataFromLocalStorage.message;
