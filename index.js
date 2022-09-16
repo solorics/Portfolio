@@ -21,38 +21,6 @@ document.addEventListener('DOMContentLoaded', () => {
   fields.message = document.getElementById('msg');
 });
 
-// eslint-disable-next-line no-unused-vars
-// function isEmail(email) {
-//   const regex = /^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/;
-//   return regex.test(String(email).toLowerCase());
-// }
-
-// const email = document.getElementById('email');
-
-// function validateEmail(email) {
-//   const validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
-//   if (email.value.match(validRegex)) {
-//     alert('Valid email address!');
-//     document.form1.text1.focus();
-//     return true;
-//   }
-//   else {
-//   alert('Lowercase please!');
-//   document.form1.text1.focus();
-//   return false;
-// }
-
-/* eslint-enable */
-// const name = document.getElementById('name').value;
-// const email = document.getElementById('#email').value;
-// const message = document.getElementById('msg').value;
-// const errorMessage = document.getElementById('error_message');
-
-// errorMessage.style.padding = '10px';
-
-// let text;
-// const mailFormat = /^[a-z0-9]+@[a-z0-9]+\.[a-z]+$/;
-
 const email = document.querySelector('#email');
 const errorMessage = document.querySelector('#error_message');
 const validate = document.querySelector('.form-section');
@@ -65,3 +33,21 @@ validate.addEventListener('submit', (event) => {
     event.preventDefault();
   }
 });
+
+const nameSection = document.querySelector('#name');
+const emailSection = document.querySelector('#email');
+const messageSection = document.querySelector('#msg');
+
+validate.addEventListener('input', () => {
+  const userData = {
+    name: nameSection.value,
+    email: emailSection.value,
+    message: messageSection.value,
+  };
+
+  localStorage.setItem('userData', JSON.stringify(userData));
+});
+const userDataFromLocalStorage = JSON.parse(localStorage.getItem('userData'));
+nameSection.value = userDataFromLocalStorage.name;
+emailSection.value = userDataFromLocalStorage.email;
+messageSection.value = userDataFromLocalStorage.message;
