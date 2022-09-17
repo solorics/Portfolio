@@ -504,10 +504,6 @@ hr {
   background-color: #191765;
 }
 
-.modal-button {
-  margin-bottom: 50%;
-}
-
 .content {
   display: flex;
   justify-content: center;
@@ -570,8 +566,9 @@ hr {
   padding-right: 78px;
   gap: 15px;
 }
+
 .btn {
-  background: #7D73FC;
+  background: #7d73fc;
   padding-top: 5px;
   padding-bottom: 10px;
   padding-left: 10px;
@@ -644,7 +641,6 @@ hr {
     padding-left: 20%;
     font-size: 26px;
     line-height: 3rem;
-   
   }
 
   .modal-button {
@@ -656,10 +652,9 @@ hr {
     padding-right: 10rem;
   }
 
-  .modal-button .btn{
+  .modal-button .btn {
     padding-left: 10px;
     padding-right: 10px;
-
   }
 
   .content {
@@ -667,6 +662,11 @@ hr {
     justify-content: center;
     flex-direction: row;
     gap: 0%;
+  }
+
+  .imagine {
+    width: 84%;
+    margin-left: 6rem;
   }
 
   .navbar {
