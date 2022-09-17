@@ -51,3 +51,37 @@ const userDataFromLocalStorage = JSON.parse(localStorage.getItem('userData'));
 nameSection.value = userDataFromLocalStorage.name;
 emailSection.value = userDataFromLocalStorage.email;
 messageSection.value = userDataFromLocalStorage.message;
+
+const modal = document.getElementById('simpleModal');
+const modalBtn = document.getElementById('modalBtn');
+const modalBtn2 = document.getElementById('modalBtn2');
+const modalBtn3 = document.getElementById('modalBtn3');
+const modalBtn4 = document.getElementById('modalBtn4');
+const closeBtn = document.getElementById('closeBtn');
+
+// eslint-disable-next-line no-use-before-define
+modalBtn.addEventListener('click', openModal);
+// eslint-disable-next-line no-use-before-define
+modalBtn2.addEventListener('click', openModal);
+// eslint-disable-next-line no-use-before-define
+modalBtn3.addEventListener('click', openModal);
+// eslint-disable-next-line no-use-before-define
+modalBtn4.addEventListener('click', openModal);
+// eslint-disable-next-line no-use-before-define
+closeBtn.addEventListener('click', closeModal);
+// eslint-disable-next-line no-use-before-define
+window.addEventListener('click', outsideClick);
+
+function openModal() {
+  modal.style.display = 'block';
+}
+
+function closeModal() {
+  modal.style.display = 'none';
+}
+
+function outsideClick(e) {
+  if (e.target === modal) {
+    modal.style.display = 'none';
+  }
+}

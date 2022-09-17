@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Quick startup</title>
 </head>
 
@@ -23,43 +23,28 @@
                     <li class="nav-item"><a class="menuItem" href="#portfolio">Portfolio</a></li>
                     <li class="nav-item"><a class="menuItem" href="#contact">Contacts</a></li>
                     <li class="nav-item"><a class="menuItem" href="#about">About</a></li>
-                    <li class="nav-item"><a class="menuItem" href="#mailbox"><img src="./Images/Union.png" alt="mail_box"></a></li>
+                    <li class="nav-item"><a class="menuItem" href="#mailbox"><img src="./Images/Union.png"
+                                alt="mail_box"></a></li>
                 </ul>
-                <!-- <div id="myNav" class="hamburger" onclick="openNav()">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div> -->
-                <nav>
-                    <img class="toggle" src="./Images/toggle.png" alt="toggle" onclick="openNav()">
-                </nav>
-                <div id="myNav" class="overlay">
-                    <a class="closebtn"> &times; </a>
-                    <div class="overlay-content">
-                        <div class="g">
-                            <a class="pop-nav" href="#portfolio">Portfolio </a> 
-                            <div class="link-icons1">></div>
-                        </div>
-                        <div class="g">
-                            <a class="pop-nav" href="#about">About </a> 
-                            <div class="link-icons2">></div>
-                        </div>
-                        <div class="g">
-                            <a class="pop-nav" href="#contact">Contact</a> 
-                            <div class="link-icons3">></div>
-                        </div>
-                        <!-- <div class="g">
-                            <a class="pop-nav" href="#about">About</a>
-                            <div class="link-icons">></div>
-                        </div>
-                        <div class="g">
-                            <a class="pop-nav" href="#contact">Contact</a>
-                            <div class="link-icons">></div>
-                        </div> -->
-                        
+                <img class="toggle" src="./Images/toggle.png" alt="toggle" onclick="openNav()">
+            </nav>
+            <div id="myNav" class="overlay">
+                <a class="closebtn"> &times; </a>
+                <div class="overlay-content">
+                    <div class="g">
+                        <a class="pop-nav" href="#portfolio">Portfolio </a>
+                        <div class="link-icons1">></div>
+                    </div>
+                    <div class="g">
+                        <a class="pop-nav" href="#about">About </a>
+                        <div class="link-icons2">></div>
+                    </div>
+                    <div class="g">
+                        <a class="pop-nav" href="#contact">Contact</a>
+                        <div class="link-icons3">></div>
                     </div>
                 </div>
-            </nav>
+            </div>
         </header>
         <section id="about" class="main-page">
             <!--main contents goes here-->
@@ -137,7 +122,7 @@
                         <li class="lang"> Ruby</li>
                     </ul>
                     <div>
-                        <button id="new-page" class="button" type="button" onclick="true">See Project</button>
+                        <button id="modalBtn" class="button" type="button" onclick="true">See Project</button>
                     </div>
                 </div>
             </div>
@@ -155,7 +140,7 @@
                         <li class="lang"> Ruby</li>
                     </ul>
                     <div>
-                        <button class="button" type="button" onclick="">See Project</button>
+                        <button id="modalBtn2" class="button" type="button" onclick="true">See Project</button>
                     </div>
                 </div>
             </div>
@@ -173,7 +158,7 @@
                         <li class="lang"> Ruby</li>
                     </ul>
                     <div>
-                        <button class="button" type="button" onclick="">See Project</button>
+                        <button id="modalBtn3" class="button" type="button" onclick="true">See Project</button>
                     </div>
                 </div>
             </div>
@@ -191,30 +176,56 @@
                         <li class="lang"> Ruby</li>
                     </ul>
                     <div>
-                        <button class="button" type="button" onclick="">See Project</button>
+                        <button id="modalBtn4" class="button" type="button" onclick="true">See Project</button>
                     </div>
                 </div>
             </div>
         </section>
+        <!-- Popup Window -->
+        <div id="simpleModal" class="modal">
+            <div class="modal-content">
+                <div class="header">
+                    <span id="closeBtn">&times;</span>
+                <h2>Multi-post story</h2>
+                </div>
+                <img src="./Images/snapshot.png" alt="">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and
+                    typesetting ever since the 1500s, when an unknown printer took a galley of type veris lapoa todoe.
+                </p>
+                <div class="content">
+                    <p>| html</p>
+                <p>|Ruby on rails |</p>
+                <p>css |</p>
+                </div>
+                <div class="modal-button">
+                    <button class="btn" type="submit">See Live<img src="./Images/arrow.png" alt="image"></button>
+                    <button class="btn btn2" type="submit">See Source<img src="./Images/github1.png" alt="image"></button>
+                </div>
+            </div>
+        </div>
         <footer>
             <div id="contact" class="template-footer">
-                <h1 class="mobile-us">CONTACT US</h1>
+                <h2 class="mobile-us">CONTACT US</h2>
                 <h1 class="desktop-us">Let's Chat!</h1>
                 <p>If you have an application you are
                     interested in developing, a feature that you
                     need built or a project that needs coding. <br>
                     I’d love to help with it </p>
-                    
+
                 <div class="form-section">
-                    <form class="form-submit" action="https://formspree.io/f/mjvzkrzj" method="post" onsubmit="return validate();">
+                    <form class="form-submit" action="https://formspree.io/f/mjvzkrzj" method="post"
+                        onsubmit="return validate();">
                         <input type="text" id="name" name="user_name" placeholder="Name" maxlength="30" required>
-                        <input type="email" id="email" name="email" placeholder="Email" required value onclick="validateEmail">
+                        <input type="email" id="email" name="email" placeholder="Email" required value
+                            onclick="validateEmail">
                         <textarea name="Enter text here" id="msg" placeholder="text" required cols="30" rows="10"
                             maxlength="500"></textarea>
-                            <p id="error_message"></p>
-                            <button class="form-button" type="submit" onclick="validate">
-                                Send
-                            </button>
+                        <p id="error_message"></p>
+                        <button class="form-button" type="submit" onclick="validate">
+                            Send
+                        </button>
                     </form>
                 </div>
             </div>
